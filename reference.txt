@@ -1,3 +1,0 @@
-https://github.com/YoongiKim/AutoCrawler
-
-Read.md 읽고 GPT랑 병행하면 쉽게 사용 가능!
