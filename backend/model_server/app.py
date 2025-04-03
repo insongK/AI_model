@@ -2,12 +2,12 @@ from flask import Flask, request, jsonify, send_file
 import numpy as np
 import cv2
 import io
-import tensorflow as tf
+#import tensorflow as tf
 
 app = Flask(__name__)
 
 # 여기는 만든 모델 - 실제 모델 경로 넣어야 함
-# model = tf.keras.models.load_model(".h5")
+model = tf.keras.models.load_model("../../my_model.keras")
 
 
 # URL - post
